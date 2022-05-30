@@ -1,7 +1,11 @@
+import Info from './Component/Info';
+import Logo from './Component/Logo';
+
 function App() {
     return (
         <div>
-            <h1 className="text-9xl">Hello world!</h1>
+            <Info />
+            <Logo />
         </div>
     );
 }
